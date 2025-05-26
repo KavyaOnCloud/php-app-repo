@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Starting Apache server"
-sudo systemctl restart apache2
+service httpd start
+
